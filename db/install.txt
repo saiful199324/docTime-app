@@ -1,0 +1,45 @@
+composer create-project laravel/laravel docTime-app
+php artisan key:generate
+composer dump-autoload
+php artisan optimize
+
+php artisan make:model Person -m
+
+use Illuminate\Support\Facades\Schema;
+
+/app/Providers/AppServiceProvider.php
+
+Schema::defaultStringLength(191);
+
+php artisan migrate
+
+SELECT @@secure_file_priv;
+
+SHOW GLOBAL VARIABLES LIKE 'local_infile'
+
+LOAD DATA INFILE 'D:/Files/test-data.csv' INTO TABLE people
+FIELDS TERMINATED BY ','
+OPTIONALLY ENCLOSED BY '"'
+LINES TERMINATED BY '\r\n'      
+IGNORE 1 ROWS;
+
+LOAD DATA INFILE 'D:/Files/test-data.csv' INTO TABLE people
+FIELDS TERMINATED BY ','
+OPTIONALLY ENCLOSED BY '"'
+LINES TERMINATED BY '\r\n'      
+IGNORE 1 ROWS;
+
+LOAD DATA INFILE 'D:/Files/Sellers.CSV' INTO TABLE sellers
+FIELDS TERMINATED BY ','
+OPTIONALLY ENCLOSED BY '"'
+LINES TERMINATED BY '\r\n'      
+IGNORE 1 ROWS;
+
+
+php artisan make:controller PeopleController
+
+composer require predis/predis
+
+
+
+https://github.com/tporadowski/redis/releases
