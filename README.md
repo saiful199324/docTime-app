@@ -7,38 +7,33 @@ Step 1: Download the Project
 •	Open your web browser and navigate to https://github.com/saiful199324/docTime-app.
 •	Click on the "Code" button and choose the "Download ZIP" option.
 •	Extract the downloaded ZIP file to your desired location.
+
 Step 2: Database Setup
 1.	Navigate to the db folder within the extracted project.
 2.	Locate the doctime.sql file.
 3.	Import the doctime.sql file into your MySQL database using phpMyAdmin or any MySQL database management tool.
-Step 3: Environment Configuration
-1.	In the root of the extracted project, find or create a file named .env.
-2.	Open the .env file with a text editor.
-3.	Set the following configurations:
-APP_NAME=doctime-app
-DB_DATABASE=doctime 
-CACHE_DRIVER=redis
+   
 
-Step 4: Install Dependencies
+Step 3: Install Dependencies
 1.	Make sure Composer is installed on your machine.
 2.	Navigate to the project directory.
 3.	Run composer update.
-Step 5: Generate Laravel Key
+Step 4: Generate Laravel Key
 1.	Run the command to generate a new application key:
 php artisan key:generate
 
-Step 6: Autoload and Optimize
+Step 5: Autoload and Optimize
 1.	Run the following commands:
 2.	composer dump-autoload
 3.	php artisan optimize
-Step 7: Start the Development Server
+Step 6: Start the Development Server
 1.	Run the command:
 php artisan serve
 
-Step 8: Access the Application
+Step 7: Access the Application
 1.	Open your web browser.
 2.	Enter either http://127.0.0.1:8000/people or http://localhost:8000/people in the address bar.
-Step 9: Explore the Application
+Step 8: Explore the Application
 You should now see the Customer List Data Table in your browser.
 Additional Notes
 •	Ensure that Redis is properly installed and configured.
