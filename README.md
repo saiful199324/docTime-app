@@ -1,4 +1,5 @@
 Project Download and Installation Guide
+
 Prerequisites
 1.	PHP version: 8.1.10
 2.	MySQL version: 8.0.30
