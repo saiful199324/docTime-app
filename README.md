@@ -4,9 +4,9 @@ Prerequisites
 2.	MySQL version: 8.0.30
 3.	Composer installed
 Step 1: Download the Project
-•	Open your web browser and navigate to https://github.com/saiful199324/docTime-app.
-•	Click on the "Code" button and choose the "Download ZIP" option.
-•	Extract the downloaded ZIP file to your desired location.
+i.Open your web browser and navigate to https://github.com/saiful199324/docTime-app.
+ii.Click on the "Code" button and choose the "Download ZIP" option.
+iii.Extract the downloaded ZIP file to your desired location.
 
 Step 2: Database Setup
 1.	Navigate to the db folder within the extracted project.
@@ -36,11 +36,12 @@ Step 7: Access the Application
 Step 8: Explore the Application
 You should now see the Customer List Data Table in your browser.
 Additional Notes
-•	Ensure that Redis is properly installed and configured.
-•	Confirm that PHP, MySQL, and Redis extensions are enabled.
+i.Ensure that Redis is properly installed and configured.
+ii.Confirm that PHP, MySQL, and Redis extensions are enabled.
+
 Troubleshooting
-•	If any issues arise during the installation, refer to the Laravel documentation or the GitHub repository for assistance.
-•	Check the Laravel and PHP compatibility.
+i.If any issues arise during the installation, refer to the Laravel documentation or the GitHub repository for assistance.
+ii.Check the Laravel and PHP compatibility.
+
 
 Happy Coding!
-Feel free to customize the documentation based on your specific project requirements and add any additional steps or information relevant to your application.
